@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  border-bottom: 1px solid #3c4043;
+  height: 56px;
+}
+
+.header-left, .header-right {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon, .apps, .profile {
+  background: none;
+  border: none;
+  color: #e8eaed;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-icon:hover, .apps:hover, .profile:hover {
+  background-color: rgba(232, 234, 237, 0.08);
+}
+
+.gemini-title {
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+.dropdown-icon {
+  font-size: 18px;
+  margin-left: 4px;
+}
+
+.try-advanced {
+  background-color: #8ab4f8;
+  color: #202124;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+/* ... rest of the header styles ... */
